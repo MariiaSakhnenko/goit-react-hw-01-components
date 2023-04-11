@@ -1,0 +1,36 @@
+.item {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  padding: 5px;
+
+  display: flex;
+  width: 180px;
+
+  align-items: center;
+
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 4px;
+}
+
+.status {
+  margin-right: 10px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
+
+.name {
+  width: 100px;
+}

@@ -1,0 +1,22 @@
+.transactionHistory {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  background-color: #01306ef7;
+  color: white;
+}
+tr {
+  background-color: rgba(173, 173, 173, 0.637);
+}
+tr:hover {
+  background-color: rgba(157, 236, 250, 0.637);
+}
